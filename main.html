@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<style>
+    .header{
+        background-image: url(laptop2.jpg);
+        color: white;
+        width: 1485px;
+        height: 700px;
+        text-align: center;
+        box-sizing: border-box;
+        padding-top: 300px;
+        font-size: xx-large;
+        /* border: 2px solid white; */
+        margin: 0px 10px 40px 10px;
+        /* font-family: 'Lato', sans-serif; */
+        
+    }
+    .header h1{
+        border: 2px solid white;
+        display: inline-block;
+        width: 600px;
+    }
+
+    .box{
+        border: 5px solid white;
+        width: 300px;
+        padding: 30px ;
+        margin: 0px 50px 10px 130px;
+        display: inline-block;
+        box-sizing: border-box;
+        background-color: rgb(200, 160, 160);
+        color:rgb(244, 225, 228) ;
+    }
+    /* .box p:hover{
+        border: 5px solid red;
+        background-color: black;
+    } */
+    #category{
+        text-align: center;
+        padding: 10px;
+        color: rgb(220, 130, 130);
+        /* background-color: rgb(244, 225, 228); */
+        font-size: x-large;
+        margin: 0px 10px 40px 10px;
+        
+    }
+    .navbar{
+        background-color: rgb(163, 103, 113);
+        box-sizing: border-box;
+        border-radius: 3px;
+        margin-top: -10px;
+        margin-bottom: -10px;
+        width: 1485px;
+        position: relative;
+        left: 10px;
+    
+        
+    }
+    .navbar ul{
+        overflow: auto;
+    }
+    .navbar li{
+        float: left;
+        list-style: none;
+        padding: 17px 30px;
+        
+    }
+    .navbar a{
+        text-decoration: none;
+        color: rgb(211, 220, 228);
+    }
+    
+    .navbar li:hover{
+        background-color: aliceblue;
+    }
+    .navbar a:hover{
+        color: rgb(219, 18, 51);
+    }
+    .search{
+        float: right;
+        color: aliceblue;
+        padding: 8px 45px;
+        margin: 3px 3px;
+    }
+    .navbar input{
+        border-radius: 5px;
+        padding: 5px;
+        width: 190px;
+    }
+
+    .about{
+        position: relative;
+        left: 950px;
+        top: 100px;
+        /* background-color: rgb(211, 127, 141); */
+        width: 25%;
+        height: 450px;
+        box-sizing: border-box;
+        display: inline-block;
+        /* border: 2px solid red; */
+    }
+    .about h2{
+        display: block;
+        margin: auto;
+        font-size: xx-large;
+        text-align: center;
+        color: rgb(120, 40, 40);
+    
+    }
+
+    .about p{
+        font-size: larger;
+        text-align: center;
+        padding: 20px;
+    }
+    .about button{
+       position: relative; 
+       left: 160px;   
+    }
+    .info{
+        margin: 100px 0px 0px 0px;
+        background-image: url(plant.jpg);
+        height: 800px;
+        /* background-position: 0px 0px 30px 10px; */
+        background-size: 1500px 800px;
+    }
+
+</style>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Service</a></li>
+                <li><a href="">Contact us</a></li>
+                <div class="search">
+                    <input type="text" name="search" placeholder="search">
+                </div>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="header">
+        <h1>Let's Gets Started</h1>
+    </div>
+
+    <div id="category">
+        <h3>Category</h3>
+    </div>
+
+    <div class="container">
+        <div class="box">
+            <h3>header</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam aperiam reiciendis vero aliquam reprehenderit accusantium possimus quidem, quod voluptatem natus mollitia? Neque blanditiis explicabo itaque eaque natus error animi.</p>
+        </div>
+        <div class="box">
+            <h3>header</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam aperiam reiciendis vero aliquam reprehenderit accusantium possimus quidem, quod voluptatem natus mollitia? Neque blanditiis explicabo itaque eaque natus error animi.</p>
+        </div>
+        <div class="box">
+            <h3>header</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam aperiam reiciendis vero aliquam reprehenderit accusantium possimus quidem, quod voluptatem natus mollitia? Neque blanditiis explicabo itaque eaque natus error animi.</p>
+        </div>
+    </div>
+    <div class="info">
+        <div class="about">
+            <h2><u>About Us</u></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At fugit amet tenetur commodi quo perferendis similique, odit, assumenda nemo ut, nam sint accusamus atque cum qui numquam voluptates exercitationem magni. Illum at beatae, nihil repudiandae hic veniam harum consectetur tempora doloribus repellendus tenetur amet iusto porro quidem vitae fuga dolores.
+            </p>
+            <button>More.</button>
+        </div>
+    </div>
+</body>
+</html>
